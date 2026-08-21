@@ -1,64 +1,150 @@
 {
-"Users": [
-    {
-      "users_ID": 1,
-      "username": "admin01",
-      "password": "admin123",
-      "fName": "Admin",
-      "lName": "System",
-      "role": "admin",
-      "province": "Chiang Mai",
-      "profileImg": "/images/profiles/admin01.jpg",
-      "isActivate": true,
-      "level_ID": 1
-    },
-    {
-      "users_ID": 2,
-      "username": "omsin01",
-      "password": "user123",
-      "fName": "Omsin",
-      "lName": "Demo",
-      "role": "user",
-      "province": "Chiang Mai",
-      "profileImg": "/images/profiles/omsin01.jpg",
-      "isActivate": true,
-      "level_ID": 2
-    },
-    {
-      "users_ID": 3,
-      "username": "somchai01",
-      "password": "user123",
-      "fName": "Somchai",
-      "lName": "Jaidee",
-      "role": "user",
-      "province": "Bangkok",
-      "profileImg": "/images/profiles/somchai01.jpg",
-      "isActivate": true,
-      "level_ID": 2
-    },
-    {
-      "users_ID": 4,
-      "username": "suda01",
-      "password": "user123",
-      "fName": "Suda",
-      "lName": "Dee",
-      "role": "user",
-      "province": "Phuket",
-      "profileImg": "/images/profiles/suda01.jpg",
-      "isActivate": false,
-      "level_ID": 3
-    },
-    {
-      "users_ID": 5,
-      "username": "narin01",
-      "password": "user123",
-      "fName": "Narin",
-      "lName": "Kumdee",
-      "role": "user",
-      "province": "Khon Kaen",
-      "profileImg": "/images/profiles/narin01.jpg",
-      "isActivate": true,
-      "level_ID": 2
-    }
-  ]
+    "e_learning": [
+        {
+            "e_learning_ID": 1,
+            "level_ID": 1,
+            "e_learning_title": "Introduction to Programming",
+            "e_learning_videoUrl": "https://example.com/videos/level1-introduction"
+        },
+        {
+            "e_learning_ID": 2,
+            "level_ID": 1,
+            "e_learning_title": "Basic Web Development",
+            "e_learning_videoUrl": "https://example.com/videos/level1-web"
+        },
+        {
+            "e_learning_ID": 3,
+            "level_ID": 2,
+            "e_learning_title": "Java Programming Fundamentals",
+            "e_learning_videoUrl": "https://example.com/videos/level2-java"
+        },
+        {
+            "e_learning_ID": 4,
+            "level_ID": 2,
+            "e_learning_title": "Data Structures Basics",
+            "e_learning_videoUrl": "https://example.com/videos/level2-data-structures"
+        },
+        {
+            "e_learning_ID": 5,
+            "level_ID": 3,
+            "e_learning_title": "Algorithms and Complexity",
+            "e_learning_videoUrl": "https://example.com/videos/level3-algorithms"
+        },
+        {
+            "e_learning_ID": 6,
+            "level_ID": 4,
+            "e_learning_title": "Software Engineering Principles",
+            "e_learning_videoUrl": "https://example.com/videos/level4-software-engineering"
+        }
+    ],
+    "Benefits": [
+        {
+            "benefits_ID": 1,
+            "level_ID": 1,
+            "benefitName": "Starter Badge",
+            "description": "Receive a badge for completing Level 1.",
+            "badgeIcon": "/images/badges/starter.png"
+        },
+        {
+            "benefits_ID": 2,
+            "level_ID": 2,
+            "benefitName": "Intermediate Badge",
+            "description": "Unlock the intermediate learner badge.",
+            "badgeIcon": "/images/badges/intermediate.png"
+        },
+        {
+            "benefits_ID": 3,
+            "level_ID": 3,
+            "benefitName": "Advanced Badge",
+            "description": "Unlock the advanced learner badge.",
+            "badgeIcon": "/images/badges/advanced.png"
+        },
+        {
+            "benefits_ID": 4,
+            "level_ID": 4,
+            "benefitName": "Expert Badge",
+            "description": "Unlock the expert learner badge.",
+            "badgeIcon": "/images/badges/expert.png"
+        }
+    ],
+    "Services": [
+        {
+            "service_ID": 1,
+            "level_ID": 1,
+            "serviceName": "Basic Learning Resources",
+            "description": "Access learning resources available for Level 1.",
+            "badgeIcon": "/images/services/basic.png"
+        },
+        {
+            "service_ID": 2,
+            "level_ID": 2,
+            "serviceName": "Intermediate Learning Resources",
+            "description": "Access additional resources for Level 2.",
+            "badgeIcon": "/images/services/intermediate.png"
+        },
+        {
+            "service_ID": 3,
+            "level_ID": 3,
+            "serviceName": "Advanced Learning Resources",
+            "description": "Access advanced resources for Level 3.",
+            "badgeIcon": "/images/services/advanced.png"
+        },
+        {
+            "service_ID": 4,
+            "level_ID": 4,
+            "serviceName": "Expert Learning Resources",
+            "description": "Access expert-level resources for Level 4.",
+            "badgeIcon": "/images/services/expert.png"
+        }
+    ],
+    "ExamHistory": [
+        {
+            "exam_ID": 1,
+            "users_ID": 2,
+            "level_ID": 1,
+            "score": 80,
+            "result": "pass",
+            "timestamp": "2026-08-01T09:30:00+07:00"
+        },
+        {
+            "exam_ID": 2,
+            "users_ID": 2,
+            "level_ID": 2,
+            "score": 65,
+            "result": "fail",
+            "timestamp": "2026-08-03T10:15:00+07:00"
+        },
+        {
+            "exam_ID": 3,
+            "users_ID": 3,
+            "level_ID": 2,
+            "score": 85,
+            "result": "pass",
+            "timestamp": "2026-08-02T13:00:00+07:00"
+        },
+        {
+            "exam_ID": 4,
+            "users_ID": 3,
+            "level_ID": 3,
+            "score": 70,
+            "result": "fail",
+            "timestamp": "2026-08-05T14:20:00+07:00"
+        },
+        {
+            "exam_ID": 5,
+            "users_ID": 5,
+            "level_ID": 2,
+            "score": 75,
+            "result": "pass",
+            "timestamp": "2026-08-06T11:10:00+07:00"
+        },
+        {
+            "exam_ID": 6,
+            "users_ID": 4,
+            "level_ID": 3,
+            "score": 82,
+            "result": "pass",
+            "timestamp": "2026-08-07T15:45:00+07:00"
+        }
+    ]
 }
